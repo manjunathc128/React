@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Basmati Rice (5kg)",
+    "category": "Grocery",
+    "price": 450,
+    "discount": 10,
+    "image": "images/grocery/rice.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Organic Honey",
+    "category": "Grocery",
+    "price": 250,
+    "discount": 5,
+    "image": "images/grocery/honey.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy S21",
+    "category": "Electronics",
+    "price": 54999,
+    "discount": 15,
+    "image": "images/electronics/galaxy_s21.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Wireless Earbuds",
+    "category": "Electronics",
+    "price": 1999,
+    "discount": 20,
+    "image": "images/electronics/earbuds.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Men's Denim Jacket",
+    "category": "Fashion",
+    "price": 2999,
+    "discount": 25,
+    "image": "images/fashion/denim_jacket.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Women's Party Dress",
+    "category": "Fashion",
+    "price": 3999,
+    "discount": 30,
+    "image": "images/fashion/party_dress.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Moisturizing Face Cream",
+    "category": "Beauty",
+    "price": 699,
+    "discount": 15,
+    "image": "images/beauty/face_cream.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Lipstick Set",
+    "category": "Beauty",
+    "price": 999,
+    "discount": 10,
+    "image": "images/beauty/lipstick.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1499,
+    "discount": 20,
+    "image": "images/toys/rc_car.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dollhouse Playset",
+    "category": "Toys",
+    "price": 2999,
+    "discount": 15,
+    "image": "images/toys/dollhouse.jpg"
+  }
+]
