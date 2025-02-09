@@ -1,12 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import { useAppContext } from "./context/AppContext";
 
-const ProductItem = ({ product, dispatch }) => {
+const ProductItem = ({ product }) => {
+  const { dispatch } = useAppContext();
+  const navigate = useNavigate();
+
   return (
     <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition">
       <img
-        src={product.image}
+        src={`/${product.image}`}
         alt={product.name}
         className="w-full h-40 object-cover rounded-md"
+        onClick={() => navigate(`/${product.category}/${product.id}`)}
       />
       <h3 className="text-lg font-semibold mt-2">{product.name}</h3>
       <p className="text-gray-700 font-bold">₹{product.price}</p>

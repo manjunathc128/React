@@ -9,12 +9,10 @@ export const initialState = {
 export const reducer = (state, action) => {
   switch (action.type) {
     case "SET_PRODUCTS":
-      console.log("Products payload:", action.payload); // Debugging
       return {
         ...state,
         products: Array.isArray(action.payload) ? action.payload : [],
       };
-
     case "SET_CATEGORY":
       return { ...state, category: action.payload };
     case "SEARCH_PRODUCT":
